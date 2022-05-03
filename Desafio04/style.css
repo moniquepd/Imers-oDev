@@ -1,0 +1,66 @@
+body {
+  font-family: "Gotham Black", monospace;
+  min-height: 600px;
+  background-image: url(https://i.pinimg.com/750x/aa/54/c5/aa54c5eb57999f5e1101b8b1829cdc8d.jpg);
+  background-color: #e3ddc5;
+  background-size: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #94c168;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #f4a594;
+  margin-top: 16px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.page-logo {
+  width: 90px;
+  background-color: #8e9472;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  color: #8e9472;
+  text-align: center;
+  margin-top: 16px;
+  font-family: "Gotham";
+  background: #e3ddc5;
+}
